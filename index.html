@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+    </style>
+
+    <link type="text/css" rel="stylesheet" href="css/IndexStyle.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#log-form").hide();
+            $("#reg-form").hide();
+            $("#spinner-type").hide();
+            $("#spinner-city").hide();
+            $("#btn-log").click(function(){
+                $("#log-form").slideToggle("slow");
+            });
+            $("#btn-reg").click(function(){
+                $("#reg-form").slideToggle("slow");
+            });
+            $("body").click(function () {
+//                $("#spinner-type").fadeOut("fast");
+//                $("#spinner-city").fadeOut("fast");
+            })
+            $("#city-input").click(function () {
+                $("#spinner-city").fadeIn("fast");
+            });
+            $("#type-input").click(function () {
+                $("#spinner-type").fadeIn("fast");
+            });
+
+            function hide() {
+                $("#spinner-type").fadeOut("fast");
+                $("#spinner-city").fadeOut("fast");
+            }
+
+//            setTimeout(hide, 1000);
+        });
+    </script>
+
+</head>
+<body>
+    <div id="logo">
+        Projekt na IO
+
+    </div>
+
+    <div id="btns">
+        <div class="btn" id="btn-log">
+            ZALOGUJ
+        </div>
+        <div class="btn" id="btn-reg">
+            ZAREJESTRUJ
+        </div>
+    </div>
+
+    <div id="reg-form">
+        <span> Podaj mail: </span>
+        <input id="mail-input">
+        <br />
+        <br />
+        <span> Podaj haslo: </span>
+        <input id="pass-input-reg">
+        <spaner id="reg-sub">OK</spaner>
+    </div>
+
+    <div id="log-form">
+        <span> Podaj login: </span>
+        <input id="log-input">
+        <br />
+        <br />
+        <span> Podaj haslo: </span>
+        <input id="pass-input">
+        <spaner id="log-sub">OK</spaner>
+    </div>
+
+    <div id="main-form">
+        <span> Podaj miasto: </span>
+        <input id="city-input" readonly>
+        <spanish> Podaj typ nieruchomości: </spanish>
+        <input id="type-input" readonly>
+        <div class="btn" id="btn-sub">
+            OK
+        </div>
+    </div>
+
+    <div class="pop-up" id="spinner-city">
+        <p>Kraków</p>
+    </div>
+
+
+    <div class="pop-up" id="spinner-type">
+        <p>Mieszkanie</p>
+        <p>Dom</p>
+        <p>Lokal</p>
+        <p>Działka</p>
+    </div>
+
+
+
+
+</body>
+</html>

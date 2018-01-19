@@ -1,0 +1,211 @@
+body{
+    background-image:    url(imgs/backgroud-small.jpg);
+    background-size:     100%;
+    background-repeat:   no-repeat;
+    background-position: top;
+    font-family: "Lato Hairline";
+    color: #455A64;
+}
+
+.btn{
+    font-size: 16px;
+    border: solid 0.5px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 2%;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#btns{
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    width: 18%;
+}
+
+#btn-reg{
+    right: 0%;
+
+}
+
+#btn-log{
+    left: 0%;
+}
+
+
+#logo{
+    font-size: 42px;
+    position: absolute;
+    left: 3%;
+    top: 4%;
+    width: 18%;
+}
+
+#main-form{
+    position: absolute;
+    width: 80%;
+    height: 25%;
+    background: white;
+    top: 35%;
+    left: 10%;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main-form input{
+
+    position: absolute;
+    top: 35%;
+
+    width: 17%;
+}
+
+input{
+    font-size: 26px;
+    border: none;
+    border-bottom: solid 1px #455A64;
+    color: #455A64;
+    font-family: "Lato Hairline",serif;
+}
+
+#type-input{
+    /*font-size: 26px;*/
+    /*position: absolute;*/
+    /*top: 35%;*/
+    left: 64%;
+}
+#city-input{
+    /*border: none;*/
+    /*border-bottom: solid 1px #455A64;*/
+    /*color: #455A64;*/
+    /*position: absolute;*/
+    /*top: 35%;*/
+    left: 17%;
+    /*font-size: 26px;*/
+    /*position: absolute;*/
+}
+
+#main-form span{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    position: absolute;
+    font-size: 26px;
+}
+
+#main-form spanish{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    position: absolute;
+    font-size: 26px;
+}
+
+#btn-sub{
+    top: 35%;
+    left: 85%;
+}
+
+#log-form{
+    position: absolute;
+    top: 0;
+    left:30%;
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#log-form span{
+    font-size: 26px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#log-form input{
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#log-sub{
+    font-size: 20px;
+    border: solid 0.5px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+
+}
+#log-sub:hover{
+    cursor: pointer;
+}
+
+
+#reg-form{
+    position: absolute;
+    top: 0;
+    left:30%;
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#reg-form span{
+    font-size: 26px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#reg-form input{
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#reg-sub{
+    font-size: 20px;
+    border: solid 0.5px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+
+}
+#reg-sub:hover{
+    cursor: pointer;
+}
+
+.pop-up{
+    position: absolute;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+#spinner-city{
+    top:49%;
+    left:23.5%;
+
+}
+
+#spinner-type{
+    top:49%;
+    left:61%;
+
+}
+
+.pop-up p:hover{
+    cursor: pointer;
+}
