@@ -10,5 +10,5 @@ require_once ('./entities/Entity.php');
 
 abstract class EntityFactory
 {
-    abstract public function createObject():Entity;
+    abstract public function createObject(array $row):Entity;
 }
